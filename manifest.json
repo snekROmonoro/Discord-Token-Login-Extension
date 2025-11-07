@@ -1,0 +1,21 @@
+{
+   "manifest_version": 3,
+   "name": "Discord Token Login",
+   "version": "1.0.0",
+   "description": "Logging into a Discord account using a token, made easier.",
+   "icons": {
+      "128": "icons/logo.png"
+   },
+   "action": {
+      "default_icon": "icons/logo.png",
+      "default_popup": "popup/index.html"
+   },
+   "permissions": [
+      "scripting",
+      "tabs",
+      "storage"
+   ],
+   "host_permissions": [
+      "<all_urls>"
+   ]
+}

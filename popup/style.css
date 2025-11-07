@@ -1,0 +1,114 @@
+body {
+    background-color: #0f0f0f;
+}
+
+.container {
+    color: #e5e5e5;
+    height: 150px;
+    width: 300px;
+}
+
+.inner-container {
+    align-items: center;
+    background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    display: flex;
+    height: 150px;
+    width: 300px;
+}
+
+.invisible-box {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    margin-left: 15px;
+    width: 270px;
+}
+
+.token-label {
+    color: #bfbfbf;
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+    margin-top: -1px;
+    letter-spacing: 0.5px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#submit {
+    background: linear-gradient(90deg, #3a3a3a, #4a4a4a);
+    border: none;
+    border-radius: 4px;
+    color: #e0e0e0;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    height: 30px;
+    margin-top: 10px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+#submit:hover {
+    background: linear-gradient(90deg, #5a5a5a, #6a6a6a);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(50, 50, 50, 0.5);
+}
+
+#token {
+    color: #f1f1f1;
+    background-color: #222;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    height: 25px;
+    margin-top: -13px;
+    outline: none;
+    padding-left: 10px;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+#token:focus {
+    border: 1px solid #888;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+}
+
+.status {
+    margin-top: 10px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    max-width: 100%;
+    word-break: break-word;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.35);
+}
+
+.hidden {
+    display: none;
+}
+
+.status.info {
+    background: rgba(30, 30, 30, 0.9);
+    color: #e5e5e5;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.status.ok {
+    background: rgba(20, 60, 20, 0.95);
+    color: #bff5b0;
+    border: 1px solid rgba(150, 255, 150, 0.08);
+}
+
+.status.error {
+    background: rgba(60, 20, 20, 0.95);
+    color: #ffb3b3;
+    border: 1px solid rgba(255, 120, 120, 0.08);
+}
