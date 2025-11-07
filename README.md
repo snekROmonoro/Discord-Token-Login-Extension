@@ -22,3 +22,5 @@ To install the extension as of right now you will need to enable Developer Mode 
 ## Other
 
 If you want to update the license for your own, or upload it to web store, you can freely do it. The repository is open for everybody. No license, no nothing. It's up to you if you want to leave credits or not. Just do NOT use for malicious purposes!
+
+Feel free to fork and update this repository with images/showcase. Would be helpful for people browsing for an extension like this!
